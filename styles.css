@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.headerContainer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 150px;
+    gap: 15px;
+    align-items: center;
+}
+
+.headerContainer p{
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.headerContainer a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+.headerContainer a:hover{
+    color: #3778f9;
+}
+/* Main Media */
+.mediaContainer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 150px;
+    gap: 50px;
+}
+
+.heroContainer{
+    flex-grow: 1;
+}
+
+.heroContainer h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.heroContainer p{
+    color: #e5e7eb;;
+    font-size: 18px;
+}
+
+.heroContainer button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.imagePlaceHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 900px;
+    height: 300px;
+    flex-basis: auto;
+    min-width: 200px;
+    min-height: 75px;
+}
+
+/* Random Information */
+
+.randomInformationContainer{
+    padding-bottom: 100px;
+}
+
+.randomInformationHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.randomInformationHeader h2{
+    text-align: center;
+    color: #1f2937;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.randomInformationContentContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.randomInformationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.randomInformationImagePlaceholder{
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.randomInformationCard p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Testimonial Section */
+.testimonialSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.testimonialSection em{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.testimonialSection strong{
+    font-size: 36px;
+    align-self: flex-end;
+}
